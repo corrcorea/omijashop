@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <title>오미자샵</title>
     <style>
+        body{
+            font-family:'Malgun Gothic','맑은 고딕',sans-serif;
+        }
         a{
             text-decoration:none;
             color:inherit;
@@ -35,6 +38,9 @@
             padding-left:15px;
             padding-right:15px;
         }
+        .nav-item:hover{
+            text-decoration: underline;
+        }
         .contents{
             text-align:center;
             margin-top:50px;
@@ -42,8 +48,9 @@
         .nav-under-items{
             text-align:center;
             border-top:1px solid #eff1f4;
-            margin-top:30px;
+            margin-top:100px;
             padding-top:10px;
+            margin-bottom:100px;
         }
         .nav-under-item{
             display:inline;
@@ -56,6 +63,13 @@
         .nav-under-item:hover{
             text-decoration: underline;
         }
+        #copyright{
+            border:none;
+        }
+        #copyright:hover{
+            text-decoration: none;
+        }
+        
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163686063-1"></script>
@@ -87,9 +101,13 @@
         </div>
     </div>
     <div class="nav-under-items">
-        <div class="nav-under-item"><a href="service.html">이용약관</a></div>
-        <div class="nav-under-item"><a href="privacy.html">개인정보처리방침</a></div>
-        <div class="nav-under-item"><a href="developer.html">웹 개발자</a></div>
+        <div class="nav-under-item"><a href="notice.html" target="_blank">공지사항</a></div>
+        <div class="nav-under-item"><a href="user-guide.html">이용안내</a></div>
+        <div class="nav-under-item"><a href="service.html" target="_blank">이용약관</a></div>
+        <div class="nav-under-item"><a href="privacy.html" target="_blank">개인정보처리방침</a></div>
+        <div class="nav-under-item"><a href="developer.html">웹개발자</a></div>
+        <div class="nav-under-item"><a href="http://www.kogl.or.kr/recommend/recommendDivView.do?recommendIdx=9519&division=font" target="_blank">무료글꼴 경기도 경기천년바탕체</a></div>
+        <div class="nav-under-item" id="copyright">ⓒ2020. corrcorea all rights reserved.</div>
     </div>
 </body>
 
