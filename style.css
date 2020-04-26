@@ -1,0 +1,89 @@
+body{
+    font-family:'Malgun Gothic','맑은 고딕',sans-serif;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+h1{
+    margin:0;
+}
+
+ol,ul{
+    list-style:none;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+.nav{
+    background-color:#f36b72;
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.main-name{
+    text-align:center;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.nav-items{
+    text-align:center;
+    padding-bottom:20px;
+}
+
+.nav-item{
+    display:inline;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.nav-item:hover{
+    border-bottom: 1px solid white;
+}
+
+.contents{
+    text-align:center;
+    margin-top:50px;
+}
+
+.nav-under-items{
+    text-align:center;
+    border-top:1px solid #eff1f4;
+    margin-top:100px;
+    padding-top:10px;
+    margin-bottom:100px;
+}
+
+.nav-under-item{
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+    border-right:1px solid #eff1f4;
+    color:#777;
+    font-size:13px;
+}
+
+.nav-under-item:hover{
+    text-decoration: underline;
+}
+
+#copyright{
+    border:none;
+}
+
+#copyright:hover{
+    text-decoration: none;
+}
+
+@media(max-width:800px){
+    .nav-under-item{
+        font-size:8px;
+    }
+}
